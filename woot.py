@@ -4,5 +4,7 @@ def factorial(n):
     """
     >>> factorial(5)
     120
+    >>> factorial(5)
+    1200
     """
     return reduce(lambda x, y: x * y, xrange(1, n + 1))
